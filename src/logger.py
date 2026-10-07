@@ -29,3 +29,4 @@ if __name__ == "__main__":
     except Exception as e:
         logging.info("Divide by Zero")
         raise CustomException(e, sys)
+
